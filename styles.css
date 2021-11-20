@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 5rem;
+    flex-wrap: wrap;
+}
+header > ul {
+    display: flex;
+}
+header ul ui {
+    margin: 10px 20px;
+    font-weight: 500;
+    font-size: larger;
+}
+header > button {
+    border: 1px solid #A5E7CB;
+    border-radius: 16px;
+    height: 32px;
+    width: 80px;
+    background-color: #fff;
+    font-weight: 600;
+    color: #A5E7CB;
+    cursor: pointer;
+    
+}
+header > button:hover {
+    color: #fff;
+    background-color: #A5E7CB;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+main {
+    margin: 10%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+:root {
+    width: 100%;
+}
+.product {
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow:blueviolet;
+    padding: 8px 16px;
+    margin: 10px;
+    position: absolute;
+    display: inline-flex;
+} 
